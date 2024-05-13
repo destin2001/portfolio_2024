@@ -1,0 +1,37 @@
+const messages = {
+  /*
+   * WINDOW
+   */
+
+  WINDOW_RESIZE: "WINDOW_RESIZE",
+
+  /*
+   * SPLASH SCREEN
+   */
+
+  SPLASH_SCREEN_HIDE: "SPLASH_SCREEN_HIDE",
+
+  /*
+   * HOME
+   */
+
+  HOME_ADD_LISTENERS: "HOME_ADD_LISTENERS",
+  HOME_REMOVE_LISTENERS: "HOME_REMOVE_LISTENERS",
+
+  /*
+   * PROJECT
+   */
+
+  PROJECT_CHANGE: "PROJECT_CHANGE",
+
+  /*
+   * ABOUT
+   */
+
+  ABOUT_OPEN: "ABOUT_OPEN",
+  ABOUT_CLOSE: "ABOUT_CLOSE",
+  ABOUT_AFTER_OPEN: "ABOUT_AFTER_OPEN",
+  ABOUT_AFTER_CLOSE: "ABOUT_AFTER_CLOSE",
+};
+
+export default messages;

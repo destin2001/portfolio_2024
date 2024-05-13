@@ -1,0 +1,15 @@
+@import '@/stylesheets/common/variables';
+
+.splash_screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: $color-white;
+  z-index: 100;
+}
+
+.splash_screen--is-hidden {
+  display: none;
+}
